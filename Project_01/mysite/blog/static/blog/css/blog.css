@@ -1,0 +1,19 @@
+#content{
+    color: pink;
+    text-align: center;
+}
+#slidebar{
+    color: blueviolet;
+    background-color: rgb(179, 117, 117);
+    text-align: center;
+}
+p.date{
+    color: rgb(131, 80, 19);
+    font-size: large;
+    background-color: rgb(14, 1, 1);
+    text-align: center;
+
+}
+body{
+    background-color: rgb(139, 49, 49);
+}

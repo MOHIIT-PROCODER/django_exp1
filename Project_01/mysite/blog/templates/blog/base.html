@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+</head>
+<body>
+    <div id="content">
+        {%block content%}
+        {%endblock%}
+    </div>
+    <div id="slidebar">
+        <h1> MY FIRST BLOG</h1>
+        <p>THIS IS  MY BLOG 1</p>
+
+    </div>
+</body>
+</html>
+
+
+
+<!-- it extend by all other html though out the project and it is the base template for all other template -->
